@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+}
+
+body {
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    background-color: #8B0000;
+    color: #F0D97B;
+    line-height: 1.2;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+/* Navbar */
+nav {
+    background-color: #F0D97B;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #8B0000;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #F0D97B;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #F0D97B;
+    margin-bottom: 20px;
+}
+
+/* Subjudul */
+h2 {
+    color: #F0D97B;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Logo Situs */
+.logo {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* Paragraf */
+p {
+    margin-bottom: 10px;
+}
+
+/* Kontak */
+#kontak p {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+body > p:nth-last-child(4) {
+    text-align: center;
+    margin-top: 20px;
+    color: #F0D97B;
+    font-size: 14px;
+}
+
+body > p:nth-last-child(3) {
+    text-align: center;
+    color: #F0D97B;
+    font-size: 14px;
+}
+
+body > p:nth-last-child(2) {
+    text-align: center;
+    color: #F0D97B;
+    font-size: 14px;
+}
+
+/* Teks Sambutan */
+#opening {
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  background-color: #F0D97B;
+  border: 2px solid black;
+  color: #8B0000;
+}
+
+button:hover {
+  background-color: #8B0000;
+  color: #F0D97B;
+}
+
+button a {
+    color: #8B0000;
+}
+
+button a:hover {
+    color: #F0D97B;
+}
+
+.ket {
+    font-size: 12px
+}

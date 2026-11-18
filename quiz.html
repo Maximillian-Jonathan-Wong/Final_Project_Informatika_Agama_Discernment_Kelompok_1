@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+  <!--- Navbar --->
+  <nav>
+    <img src="Logo.png" alt="Logo Situs" width="100px" height="100px" id="logo"><br>
+    <a href="home.html">Home</a>
+    <a href="materials.html">Materials</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="credits.html">Credits</a>
+  </nav>
+    
+  <h1>Quiz</h1>
+    <p class="awal">Semangat mengerjakan kuisnya!</p>
+    <ol class="awal" id="awal">Panduan pengisian kuis: (mohon dibaca dan dicermati)
+      <li>Isi terlebih dahulu nama lengkap (atau nama panggilan), email/surel, dan tanggal lahir</li>
+      <li>Kuis terdiri dari 10 Pilihan Ganda, 6 Benar/Salah, 2 Esai, 1 Uraian, dan 1 Tabel Refleksi</li>
+      <li>Pada pilihan ganda, pilihlah opsi yang paling tepat dari A, B, C, dan D</li>
+      <li>Pada benar/salah, tentukanlah apakah pernyataan yang diberikan benar atau salah</li>
+      <li>Pada isian singkat, jawablah dalam 1-3 kalimat saja</li>
+      <li>Pada uraian, jawablah dengan penjelasan yang rinci dan mudah dipahami</li>
+      <li>Tabel tidak harus diisi (opsional)</li>
+      <li>Jawablah pertanyaan yang lebih mudah terlebih dahulu</li>
+      <li>Gunakan akal budi dan diskresi dalam mengerjakan soal</li>
+      <li>Tidak ada batas waktu</li>
+    </ol>
+    <form>
+      <h2>Data Diri</h2>
+      
+      <label for="FullName">Nama Lengkap:</label>
+      <input type="text" id="FullName" placeholder="Nama Lengkap" required>
+      <br><br>
+
+      <label for="Email">Alamat Email:</label>
+      <input type="email" id="Email" placeholder="g@mail.google.com" required>
+
+      <br><br>
+
+      <label for="Date">Tanggal Lahir:</label>
+      <input type="date" id="Date" required>
+
+      <br><hr>
+
+      <h2>I. Pilihan Ganda</h2>
+      
+      <p>1. Berdasarkan LR23, tujuan hidup manusia adalah untuk...</p>
+      <ol type="A">
+        <li>memuji, menghormati, dan mengabdi kepada Allah</li>
+        <li>beranak cucu dan berkembang biak</li>
+        <li>berbuat baik kepada sesama karena merupakan cerminan dari perilaku kepada Allah</li>
+        <li>mengerjakan kuis ini dengan baik</li>
+      </ol>
+      <label for="Problem1">Jawaban:</label>
+      <select id="Problem1" required>
+        <option value="">Jawaban 1</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+      
+      <p>2. Konsolasi dapat muncul jika kita...</p>
+      <ol type="A">
+        <li>selalu merasa senang</li>
+        <li>meraih sesuatu dengan usaha sendiri tanpa dukungan Tuhan</li>
+        <li>memenuhi semua keinginan duniawi yang kita inginkan</li>
+        <li>merasa lebih dekat dengan Allah melalui tindakan kita</li>
+      </ol>
+      <label for="Problem2">Jawaban:</label>
+      <select id="Problem2" required>
+        <option value="">Jawaban 2</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+
+      <p>3. Pernyataan berikut yang bukan merupakan ciri desolasi adalah:</p>
+      <ol type="A">
+        <li>hati merasa jauh dengan Tuhan</li>
+        <li>mengalami kebingungan dan kehampaan</li>
+        <li>memenuhi semua keinginan duniawi yang kita inginkan</li>
+        <li>merasa lebih dekat dengan Allah melalui tindakan kita</li>
+      </ol>
+      <label for="Problem3">Jawaban:</label>
+      <select id="Problem3" required>
+        <option value="">Jawaban 3</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+
+      <p>4. Salah satu ciri desolasi adalah konsolasi semu. Konsolasi semu adalah...</p>
+      <ol type="A">
+        <li>tindakan mengisi kuis ini dengan jujur</li>
+        <li>tindakan yang jelas membawa kesengsaraan</li>
+        <li>tindakan yang terlihat baik tapi tidak sejalan dengan niatnya</li>
+        <li>tindakan yang mendekatkan kita dengan Allah karena baik dan menyejahterakan sesama</li>
+      </ol>
+      <label for="Problem4">Jawaban:</label>
+      <select id="Problem4" required>
+        <option value="">Jawaban 4</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+      
+      <p>5. Suara hati adalah suara dari "dalam hati kita" yang membimbing kita untuk...</p>
+      <ol type="A">
+        <li>mengurung diri di dalam ruangan dan bermain game</li>
+        <li>menuju ke jalan yang benar dan dikehendaki Allah</li>
+        <li>mendapatkan kita nilai 100 di ulangan tanpa harus belajar</li>
+        <li>meningkatkan kekayaan pribadi</li>
+      </ol>
+      <label for="Problem5">Jawaban:</label>
+      <select id="Problem5" required>
+        <option value="">Jawaban 5</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <hr>
+      <p>Sebelum lanjut...</p>c
+      <label>Tahukah kamu?</label>
+      <br>
+      <dt class="funf">Konsolasi sering digambarkan di Alkitab melalui berbagai peristiwa. Contoh penggambaran konsolasi adalah di Lukas 24:32 yaitu:</dt>
+      <dd class="funf">"Bukanlah hati kita berkobar-kobar, ketika Ia berbicara dengan kita di tengah jalan dan ketika Ia menerangkan Kitab Suci kepada kita?"</dd>
+      <br>
+      <label>Peristiwa ini menceritakan dua murid Yesus yang sedang berjalan ke kampung halaman mereka di Emaus setelah Yesus disalibkan dan wafat. Mereka awalnya merasa sedih. Di tengah perjalanan, Yesus tiba-tiba muncul. Namun, mereka belum mengenalinya hingga sampai ke rumah saat Yesus memecahkan roti dan membagikannya kepada mereka. Pada saat itu, kedua murid mengatakan kutipan Injil Lukas di atas.</label>
+      <hr>
+
+      <p>6. Roh baik dan roh jahat bekerja dalam diri kita. Jika kita mendengarkan suara-suara yang berbeda dari dalam diri, salah satu cara membedakan antara roh baik dan roh jahat adalah...</p>
+      <ol type="A">
+        <li>mempraktekan discernment</li>
+        <li>bertanya kepada teman</li>
+        <li>menghiraukan keduanya karena tidak ingin peduli</li>
+        <li>mengikuti salah satunya dan berharap itu adalah roh baik</li>
+      </ol>
+      <label for="Problem6">Jawaban:</label>
+      <select id="Problem6" required>
+        <option value="">Jawaban 6</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+
+      <p>7. Bambang menyesal karena ia harus belajar ulangan Biologi untuk hari Senin sehingga tidak dapat menonton acara televisi yang ia suka. Namun, pada hari ulangan, Bambang merasa senang karena bisa mengerjakan tugasnya dengan baik dan yakin akan mendapatkan nilai yang diinginkan. Berdasarkan kasus tersebut, Bambang berada dalam keadaan...</p>
+      <ol type="A">
+        <li>desolasi</li>
+        <li>konsolasi</li>
+        <li>konsolasi semu</li>
+        <li>desolasi semu</li>
+      </ol>
+      <label for="Problem7">Jawaban:</label>
+      <select id="Problem7" required>
+        <option value="">Jawaban 7</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+      
+      <p>8. Jeff tidak mendengarkan orang tuanya dan sering bermain game hingga larut malam sehingga tidak fokus di sekolah. Jeff kemudian mendengar suara dari dalam tubuhnya yang mengatakan kepadanya untuk tetap fokus bermain game karena lebih memuaskan dari nilai yang baik. Berdasarkan kasus di atas, suara hati Jeff dapat keliru karena...</p>
+      <ol type="A">
+        <li>kurang informasi dan tidak tahu</li>
+        <li>kepekaan batin karena kebiasaan buruk</li>
+        <li>pengaruh lingkungan pertemanan yang toxic</li>
+        <li>sering membohongi diri sendiri sehingga lupa akan kebenaran</li>
+      </ol>
+      <label for="Problem8">Jawaban:</label>
+      <select id="Problem8" required>
+        <option value="">Jawaban 8</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+
+      <p>9. Rina merasa bahagia karena dapat diam-diam menyontek. Pada kasus ini, roh baik akan menegur Rina dengan...</p>
+      <ol type="A">
+        <li>menyuruh Rina mengaku kepada guru dan meminta konsekuensi</li>
+        <li>menyuruh Rina memendam kejadian ini dan tidak menceritakannya kepada siapapun</li>
+        <li>menyuruh Rina menyontek lagi di ulangan berikutnya karena susah</li>
+        <li>menyuruhnya berdoa kepada Yesus 70 kali 7 kali</li>
+      </ol>
+      <label for="Problem9">Jawaban:</label>
+      <select id="Problem9" required>
+        <option value="">Jawaban 9</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br><br>
+
+      <p>10. Kai diberikan pilihan untuk berangkat ke Kolese Kanisius besok untuk mengerjakan kuis atau tidak masuk karena risiko demo. Setelah mengevaluasi kondisi dan membaca berita, Kai menyimpulkan bahwa ia akan tetap masuk sekolah karena demonstrasinya di tempat yang jauh dari rumah dan sekolah. Manakah pernyataan yang termasuk proses discernment oleh Kai dalam kasus ini?</p>
+      <ol type="A">
+        <li>menanyakan teman yang sudah kuis tentang model soal</li>
+        <li>bertanya kepada guru tentang kuis susulan</li>
+        <li>membaca berita tentang demonstrasi besok</li>
+        <li>menelpon ketua demonstran agar demonstrasi dipindah ke minggu depan saja</li>
+      </ol>
+      <label for="Problem10">Jawaban:</label>
+      <select id="Problem10" required>
+        <option value="">Jawaban 10</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+      
+      <hr>
+      <p>Sebelum lanjut...</p>
+      <label>Tahukah kamu?</label>
+      <br>
+      <dt class="funf">Desolasi juga sering digambarkan di Alkitab melalui berbagai peristiwa. Contoh penggambaran desolasi dalam Alkitab adalah di Kitab Ayub, yang sangat tampak pada Ayub 3:3:</dt>
+      <dd class="funf">"Biarlah hilang lenyap hari kelahiranku dan malam yang mengatakan: Seorang anak laki-laki telah ada dalam kandungan."</dd>
+      <br>
+      <label>Petikan ayat Alkitab ini menunjukkan bahwa Ayub sudah mengalami sekian desolasi sehingga ingin agar hari kelahirannya lenyap (tidak pernah lahir). Desolasi adalah hal yang wajar, bahkan orang terpilih seperti Ayub dapat mengalaminya. Hal yang lebih penting adalah tanggapan kita terhadap desolasi tersebut.</label>
+      <hr>
+
+      <h2>II. Benar/Salah</h2>
+
+      <p>11. Tindakan yang membawakan penyesalan tetapi pada akhirnya membawa manfaat baik disebut desolasi semu.</p>
+      <label for="Problem11">Jawaban:</label>
+      <select id="Problem11" required>
+        <option value="">Jawaban 11</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <br><br>
+
+      <p>12. Jon selalu mengerjakan soal ulangan dengan jujur sehingga hati nuraninya terasah dengan baik.</p>
+      <label for="Problem12">Jawaban:</label>
+      <select id="Problem12" required>
+        <option value="">Jawaban 12</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <br><br>
+
+      <p>13. Roh jahat selalu menawarkan opsi yang tidak menyenangkan.</p>
+      <label for="Problem13">Jawaban:</label>
+      <select id="Problem13" required>
+        <option value="">Jawaban 13</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <br><br>
+
+      <p>14. Sarman sering membantu teman-temannya yang membutuhkan. Karena ia sering melakukan tindakan baik, roh jahat akan takut dan tidak mau mengganggu Sarman lagi.</p>
+      <label for="Problem14">Jawaban:</label>
+      <select id="Problem14" required>
+        <option value="">Jawaban 14</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <br><br>
+
+      <p>15. Louis mendengar suara yang mengatakan "Jika kamu sungguh beriman, kamu tidak akan melakukan ini." Roh tersebut merupakan roh baik.</p>
+      <label for="Problem15">Jawaban:</label>
+      <select id="Problem15" required>
+        <option value="">Jawaban 15</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <br><br>
+
+      <p>16. Harry memilih untuk melakukan sistem kebut semalam saja di H-1 dalam belajar ulangan Agama minggu depan. Kasus tersebut menunjukkan roh jahat memanipulasi discernement Harry.</p>
+      <label for="Problem16">Jawaban:</label>
+      <select id="Problem16" required>
+        <option value="">Jawaban 16</option>
+        <option value="Benar">Benar</option>
+        <option value="Salah">Salah</option>
+      </select>
+
+      <hr>
+      <p>Sebelum lanjut...</p>
+      <label>Tahukah kamu?</label>
+      <br>
+      <dt class="funf">Suara hati merupakan salah satu ajaran yang penting dalam Alkitab. Rasul Paulus dan Santo Petrus merupakan contoh dari tokoh yang mengajarkan tentang suara hati. Ajaran Santo Petrus dapat ditemukan di Surat Petrus yang Pertama (1 Petrus 3:16):</dt>
+      <dd class="funf">"...dan dengan <strong>hati nurani yang murni</strong>, supaya mereka, yang memfitnah kamu karena hidupmu yang saleh dalam Kristus, menjadi malu karena fitnahan mereka itu."</dd>
+      <br>
+      <label>Santo Petrus mengajarkan para pengikut Kristus di wilayah Asia Minor (Turki) untuk mempertahankan kemurnian hati nurani mereka masing-masing agar dapat kuat bertahan melawan tantangan yang diberikan oleh kaum pemuja Dewa-Dewi Romawi yang menganggap rendah pengikut Kristus.</label>
+      <hr>
+
+      <h2>III. Esai</h2>
+
+      <p>17. Terkadang, suara hati kita bisa salah dan malah menjerumuskan kita ke jalan yang tidak benar. Jelaskan alasan-alasan yang dapat membuat suara hati keliru!</p>
+      <label for="Problem17">Jawaban 17:</label>
+      <input type="text" id="Problem17" placeholder="Jawaban" required>
+
+      <br><br>
+
+      <p>18. Roh baik dan roh jahat pasti ada dalam setiap manusia. Tuliskan cara-cara roh baik dan roh jahat bekerja dalam manusia!</p>
+      <label for="Problem18">Jawaban 18:</label>
+      <input type="text" id="Problem18" placeholder="Jawaban" required>
+      
+      <h2>IV. Uraian</h2>
+      
+      <p>19. Jelaskan bagaimana seseorang dapat terjerumus ke dalam desolasi melalui tindakannya sendiri!</p>
+      <label for="Uraian">Jawaban:</label>
+      <br>
+      <textarea id="Uraian" cols="50" rows="4" field-sizing="content" placeholder="Jawaban" required></textarea>
+
+      <br><br>
+
+      <h2>V. Tabel</h2>
+
+      <p>20. Isilah tabel refleksi ini berdasarkan pertanyaan yang diberikan! (opsional)</p>
+      <table>
+        <tr>
+          <th>Pengalaman Konsolasi dan Desolasi</th>
+          <th>Tantangan internal dan<br>
+              eksternal dalam pengalaman</th>
+          <th>Hubungan dengan LR 23</th>
+          <th>Cara roh baik dan roh jahat<br>
+              bekerja dalam pengalaman tersebut</th>
+        </tr>
+        <tr>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Pengalaman Konsolasi"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Tantangan internal dan eksternal"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Hubungan dengan LR 23"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Cara kerja roh baik dan roh jahat"></textarea></td>
+        </tr>
+        <tr>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Pengalaman Desolasi"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Tantangan internal dan eksternal"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Hubungan dengan LR 23"></textarea></td>
+          <td><textarea id="Uraian" cols="20" rows="6" field-sizing="content" placeholder="Cara kerja roh baik dan roh jahat"></textarea></td>
+        </tr>
+      </table>
+
+      <button type="submit">Kirim Hasil</button>
+      <p>Jika anda menekan tombol "Kirim Hasil", hasil tes ini akan dikirimkan ke email Tim Kelompok 1 INF. Hasil evaluasi akan diberikan kepada anda 3 hari setelah tes melalui email anda.</p>
+    </form>
+    
+    <hr class="awal">
+  <!--- Footer --->
+    <p>Email: 2516022.jenson@kanisius.sch.id</p>
+    <p>Telepon: +62 0819-0867-5410</p>
+    <p>&copy; 2026 - Dibuat dengan HTML</p>
+  </body>
+</html>
